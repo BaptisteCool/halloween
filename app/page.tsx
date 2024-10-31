@@ -1,64 +1,9 @@
 "use client";
 import { Ghost, Moon, Star } from 'lucide-react';
 import { useState } from 'react';
+import { questions } from './questions';
 
-const questions = [
-  {
-    question: "D'où vient la tradition d'Halloween ?",
-    options: [
-      "De la fête irlandaise Samhain",
-      "D'une fête de pirates",
-      "D'une fête du printemps",
-      "D'une fête du Père Noël"
-    ],
-    correct: 0,
-    explanation: "Halloween vient d'une ancienne fête irlandaise appelée Samhain qui marquait la fin de l'été !"
-  },
-  {
-    question: "Pourquoi creuse-t-on des citrouilles à Halloween ?",
-    options: [
-      "Pour faire une soupe",
-      "Pour faire une lanterne qui protège la maison",
-      "Pour décorer le jardin",
-      "Pour nourrir les oiseaux"
-    ],
-    correct: 1,
-    explanation: "Les lanternes en citrouille étaient utilisées pour protéger les maisons des esprits pendant Halloween !"
-  },
-  {
-    question: "Pourquoi dit-on 'des bonbons ou un sort' ?",
-    options: [
-      "Pour faire peur aux voisins",
-      "Pour avoir plus de bonbons",
-      "C'est une ancienne tradition d'échange",
-      "Pour s'amuser entre amis"
-    ],
-    correct: 2,
-    explanation: "C'est une tradition où les gens échangeaient de la nourriture contre des chansons et des prières !"
-  },
-  {
-    question: "Quelle couleur représente Halloween avec le noir ?",
-    options: [
-      "Le rouge",
-      "Le orange",
-      "Le bleu",
-      "Le vert"
-    ],
-    correct: 1,
-    explanation: "Le orange des citrouilles et le noir de la nuit sont les couleurs traditionnelles d'Halloween !"
-  },
-  {
-    question: "Quel légume utilisait-on avant les citrouilles ?",
-    options: [
-      "Des navets",
-      "Des pommes",
-      "Des carottes",
-      "Des patates"
-    ],
-    correct: 0,
-    explanation: "En Irlande, on creusait des navets car il n'y avait pas de citrouilles !"
-  }
-];
+
 
 const HalloweenQuiz = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
