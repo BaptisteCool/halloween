@@ -247,5 +247,33 @@ export const questions: Question[] = [
     options: ["Les gâteaux", "Les légumes", "Les fruits", "Les cerveaux"],
     correct: 3,
     explanation: "Dans les histoires, les zombies adorent manger des cerveaux !"
+  },
+  {
+    question: "Qui est le plus fort parmi ces monstres gentils ?",
+    options: ["Shrek", "Sully (Monstres & Cie)", "Casper", "Félicie (la fille loup-garou)", "Mike Wazowski"],
+    correct: 0,
+    explanation: "Parmi ces monstres gentils, Shrek est souvent considéré comme le plus fort grâce à sa taille, sa force physique et sa résilience !"
+  },
+  {
+    question: "Quel monstre a le plus de mal à se lever le matin ?",
+    options: [
+      "Le vampire (il n’aime pas la lumière)",
+      "Le zombie (il marche comme un dormeur)",
+      "Le fantôme (il reste sous les draps)",
+      "Le loup-garou (il préfère la pleine lune)"
+    ],
+    correct: 2,
+    explanation: "Le fantôme a du mal à se lever car il reste sous les draps toute la journée !"
+  },
+  {
+    question: "Pourquoi les vampires sont-ils mauvais en jardinage ?",
+    options: [
+      "Parce qu'ils détestent les gousses d’ail",
+      "Parce qu’ils ne voient rien de jour",
+      "Parce qu'ils préfèrent les plantes carnivores",
+      "Parce qu'ils ne supportent pas le soleil"
+    ],
+    correct: 0,
+    explanation: "Les vampires évitent le jardinage à cause des gousses d'ail, leur pire cauchemar !"
   }
 ];
