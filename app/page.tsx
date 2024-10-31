@@ -46,9 +46,9 @@ const HalloweenQuiz = () => {
           key={i}
           className="absolute text-yellow-200 animate-pulse"
           style={{
-            top: `${Math.random() * 100}%`,
-            left: `${Math.random() * 100}%`,
-            animationDelay: `${Math.random() * 2}s`
+            top: `${0.9 * 100}%`,
+            left: `${0.5 * 100}%`,
+            animationDelay: `${0.2 * 2}s`
           }}
           size={16}
         />
